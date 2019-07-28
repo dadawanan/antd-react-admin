@@ -1,0 +1,134 @@
+@import '~antd/dist/antd.css';
+/* body{
+  background-color: #2d3a4b
+} */
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .ant-layout .ant-layout-has-sider{
+  height: 100vh;
+} */
+.ant-layout-content{
+  min-height: 360px;
+  margin: 16px 16px 0px !important;
+  border-radius: 5px
+}
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.login{
+  min-height: 100%;
+  height: 100vh;
+  width: 100%;
+  background-color: #2d3a4b;
+  overflow: hidden
+}
+.login-logo{
+  font-size: 26px;
+  color: #eee;
+  margin: 0 auto 40px auto;
+  text-align: center;
+  font-weight: 700;
+}
+.login-form{
+  position: relative;
+  width: 520px;
+  max-width: 100%;
+  padding: 160px 35px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.login-logo h3{
+  color: #eee;
+  font-size: 26px
+}
+.login-form-button {
+  width: 100%;
+}
+.login-form-forgot {
+  float: right;
+  color: #eee;
+}
+.checkpassword{
+  float: left;
+  color: #eee;
+}
+.ant-breadcrumb{
+  line-height: 64px;
+  display: inline-block;
+  margin-left: 24px
+}
+
+/*
+headerbar
+*/
+.Iconstyle{
+  display: inline-block;
+  height: 100%;
+  padding: 0 8px;
+  font-size: 24px;
+  vertical-align: text-bottom;
+  cursor: pointer
+}
+.Iconstyle :hover{
+  height: 100%;
+  background:rgba(0,0,0,.05)
+}
+.dropdownstyle{
+  margin-right:30px;
+  vertical-align:text-bottom
+}
+.ant-dropdown-menu{
+  margin-top: 21px
+}
+.creat-bottom{
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 26px;
+  font-size: 10px
+}
